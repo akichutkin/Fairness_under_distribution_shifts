@@ -1,0 +1,31 @@
+digraph {
+	X
+	Z
+	Zx0
+	Zx1w
+	Wx0
+	Y
+	Yx0
+	Yx1w
+	Uy [color=red]
+	U [color=red]
+	Uw [color=red]
+	U -> Z [color=red style=dashed]
+	U -> Zx0 [color=red style=dashed]
+	U -> Zx1w [color=red style=dashed]
+	U -> X [color=red style=dashed]
+	Uw -> W [color=red style=dashed]
+	Uw -> Wx0 [color=red style=dashed]
+	Uy -> Y [color=red style=dashed]
+	Uy -> Yx0 [color=red style=dashed]
+	Uy -> Yx1w [color=red style=dashed]
+	X -> W
+	X -> Y
+	Z -> W
+	Z -> Y
+	Zx0 -> Wx0
+	Zx0 -> Yx0
+	Zx1w -> Yx1w
+	W -> Y
+	Wx0 -> Yx0
+}

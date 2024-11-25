@@ -1,0 +1,17 @@
+digraph {
+	"X=x0"
+	Z
+	W
+	Y
+	Uy [color=red]
+	U [color=red]
+	Uw [color=red]
+	U -> Z [color=red style=dashed]
+	U -> "X=x0" [color=red style=dashed]
+	Uw -> W [color=red style=dashed]
+	Uy -> Y [color=red style=dashed]
+	"X=x0" -> W
+	"X=x0" -> Y
+	Z -> W
+	Z -> Y
+}
