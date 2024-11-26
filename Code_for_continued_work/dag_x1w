@@ -1,0 +1,9 @@
+digraph {
+	Zx1w
+	Yx1w
+	Uy [color=red]
+	U [color=red]
+	U -> Zx1w [color=red style=dashed]
+	Uy -> Yx1w [color=red style=dashed]
+	Zx1w -> Yx1w
+}
